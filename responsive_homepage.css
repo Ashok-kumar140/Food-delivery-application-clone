@@ -1,0 +1,229 @@
+/* @media only screen and (max-width:600px) {
+    
+}
+@media only screen and (min-width:600px) and (max-width:792px) {
+    
+}
+600 = mobiles.
+600-792 == bigger mobiles or small tablet
+792-992 = tablets
+992-1200 = desktops */
+
+.header {
+    height: 50px;
+    background-color: red;
+}
+
+.login-group {
+    display: inline-block;
+    float: right;
+    color: white;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+
+.login {
+    display: inline-block;
+    padding: 5px;
+    border: solid black 1px;
+    width: 76px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: lightgrey;
+}
+
+.signup {
+    display: inline-block;
+    border: solid black 1px;
+    padding: 4px;
+    cursor: pointer;
+    color: black;
+    background-color: lightgrey;
+}
+
+.header-logo {
+    display: inline-block;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 1%;
+    background-color: white;
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+.helo {
+    text-align: center;
+}
+
+.logo {
+    height: 73px;
+    width: 223px;
+    background-color: #f5f9fa;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 43px;
+    margin-left: 34%;
+    color: red;
+    font-family: ui-rounded;
+}
+
+.logo-content {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.wallpaper {
+    font-size: 55px;
+    color: white;
+    line-height: 1.5;
+    font-family: ui-sans-serif;
+}
+
+.select {
+    width: 160px;
+    height: 30px;
+}
+
+.search {
+    width: 330px;
+    height: 29px;
+}
+
+.heading1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    color: darkblue;
+    line-height: 2;
+    margin-top: 2px;
+}
+
+.heading2 {
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 200;
+    color: darkgray;
+    margin-bottom: 14px;
+}
+
+.item {
+    border: solid red 2px;
+    width: 85%;
+    height: 160px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 71px;
+    box-shadow: 10px 10px 9px 3px red;
+}
+
+.item-heading {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 10px;
+    color: darkblue;
+}
+
+.item-subheading {
+    font-family: cursive;
+    color: darkgray;
+}
+
+.fa-search {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.dd {
+    display: inline;
+}
+
+@media only screen and (max-width:600px) {
+    .logo {
+        margin-left: 5%;
+    }
+    .dd {
+        display: block;
+    }
+    .helo {
+        text-align: left;
+        margin-left: 5%;
+    }
+    .wallpaper {
+        font-size: 20px;
+        color: white;
+        line-height: 2;
+        margin-left: 10px;
+    }
+    .bi-search {
+        position: absolute;
+        top: 308px;
+        left: 657px;
+        font-weight: bold;
+    }
+    .logo-content {
+        left: 10%;
+    }
+    .select {
+        width: 300px;
+        height: 29px;
+        margin-bottom: 10px;
+    }
+    .search {
+        width: 300px;
+        height: 29px;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:792px) {
+    .logo {
+        margin-left: 10%;
+    }
+    .wallpaper {
+        font-size: 30px;
+        color: white;
+        line-height: 2.5;
+        margin-left: 30px;
+    }
+    .logo-content {
+        left: 15%;
+    }
+    .select {
+        width: 160px;
+        height: 30px;
+    }
+    .search {
+        width: 330px;
+        height: 27px;
+    }
+}
+
+@media only screen and (min-width:792px) and (max-width:992px) {
+    .logo {
+        margin-left: 25%;
+    }
+    .wallpaper {
+        font-size: 31px;
+        color: white;
+        line-height: 2.5;
+        margin-left: 30px;
+    }
+    .logo-content {
+        left: 15%;
+    }
+    .select {
+        width: 160px;
+        height: 30px;
+    }
+    .search {
+        width: 330px;
+        height: 27px;
+    }
+}

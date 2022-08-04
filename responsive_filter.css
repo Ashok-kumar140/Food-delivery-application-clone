@@ -1,0 +1,262 @@
+    .header {
+        width: 100%;
+        height: 75px;
+        background-color: #c60707;
+    }
+    
+    .logo {
+        width: 65px;
+        height: 65px;
+        background-color: #26f0f0;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: initial;
+        display: inline-block;
+        margin-top: 5px;
+    }
+    
+    .Buttons {
+        padding-top: 7px;
+        float: right;
+        margin-right: 15px;
+        margin-top: 12px;
+    }
+    
+    .login {
+        margin-right: 12px;
+        width: 80px;
+        color: black;
+        background-color: #26f0f0;
+    }
+    
+    .signup {
+        width: 175px;
+        color: black;
+        background-color: #26f0f0;
+    }
+    
+    .container-fluid {
+        margin-top: 10px;
+    }
+    
+    .Main-heading {
+        font-family: sans-serif;
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 1.53;
+        text-align: left;
+        margin-bottom: 20px;
+        color: #192f60;
+    }
+    
+    .filter-block {
+        width: 80%;
+        /* height: 650px; */
+        border: solid 2px lightgray;
+        margin-bottom: 30px;
+        box-shadow: brown 4px 4px 10px 1px;
+    }
+    
+    .icon {
+        float: right;
+        margin-right: 10px;
+        margin-top: 5px;
+        font-size: 20px;
+        display: none;
+    }
+    
+    .heading {
+        display: none;
+    }
+    
+    .collapse {
+        margin-left: 15px;
+        display: inline-block;
+    }
+    
+    .filter-heading {
+        font-family: sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: left;
+        color: #192f60;
+        padding-top: 20px;
+    }
+    
+    .Cuisine {
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #192f60;
+        margin-top: 12px;
+        margin-bottom: 9px;
+    }
+    
+    .Rectangle-2236 {
+        width: 208px;
+        height: 35px;
+        border-radius: 3px;
+        border: solid 1px #8c96ab;
+        margin-top: 10px;
+        padding: 5px 13px;
+    }
+    
+    .checkbox-items {
+        font-family: sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+        color: #8c96ab;
+        width: 85px;
+        height: 20px;
+        margin: 15px 94px 12px 11px;
+    }
+    
+    .item {
+        width: 90%;
+        height: 275px;
+        border: solid 2px lightgray;
+        margin-bottom: 26px;
+        box-shadow: brown 4px 4px 10px 1px;
+    }
+    
+    .img {
+        height: 150px;
+        width: 150px;
+        border-radius: 17px;
+        margin: 24px 114px 0px 37px;
+    }
+    
+    .rest-name {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1.53;
+        text-align: left;
+        color: #192f60;
+        margin-top: 24px;
+    }
+    
+    .rest-location {
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.88;
+        margin-bottom: 10px;
+        text-align: left;
+        color: #192f60;
+    }
+    
+    .rest-address {
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #636f88;
+    }
+    
+    .hr {
+        margin: 10px 5px 10px 5px;
+        color: black;
+        max-width: 96%;
+    }
+    
+    .Bakery {
+        margin-left: 47px;
+        margin-top: 10px;
+    }
+    
+    .footer {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        /* margin-left: 100px; */
+    }
+    
+    .little-squares {
+        display: inline-block;
+        color: gray;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: solid 1px gray;
+        border-radius: 10px;
+        margin: 2px;
+        cursor: pointer;
+    }
+    
+    #unique {
+        background-color: darkgray;
+    }
+    
+    @media only screen and (max-width:600px) {
+        .Main-heading {
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        .logo {
+            width: 45px;
+            height: 45px;
+            font-size: 30px;
+            margin-top: 15px;
+        }
+        .login {
+            margin-right: 5px;
+        }
+        .filter-block {
+            width: 90%;
+        }
+        .icon {
+            display: initial;
+        }
+        .heading {
+            display: initial;
+        }
+        .img {
+            height: 100px;
+            width: 100px;
+            margin-left: 132px;
+            margin-top: 10px;
+        }
+        .rest-name {
+            font-size: 25px;
+            font-weight: 550;
+            line-height: 1.2;
+            text-align: left;
+            color: #192f60;
+            margin-top: 14px;
+            margin-left: 61px;
+        }
+        .rest-location {
+            line-height: 1.5;
+            margin-left: 163px;
+        }
+        .rest-address {
+            line-height: 1.88;
+            letter-spacing: normal;
+            margin-left: 43px;
+        }
+        .item {
+            width: 90%;
+            height: 325px;
+            border: solid 2px lightgray;
+            margin-bottom: 26px;
+            box-shadow: brown 4px 4px 10px 1px;
+        }
+    }
+    
+    @media only screen and (min-width:600px) and (max-width:792px) {
+        .Main-heading {
+            font-size: 37px;
+        }
+    }
+    
+    @media only screen and (min-width:792px) and (max-width:992px) {}
